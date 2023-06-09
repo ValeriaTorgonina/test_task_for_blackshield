@@ -1,0 +1,31 @@
+.inputWrapper {
+  display: block;
+  padding-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.input {
+  width: 100%;
+  padding: 15px 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  background: #FFFFFF;
+  border: 1px solid rgba(27, 58, 89, 0.4);
+  border-radius: 6px;
+
+  &:focus {
+    border-color: #007AF4;
+  }
+
+  &:invalid {
+    border-color: red;
+  }
+}

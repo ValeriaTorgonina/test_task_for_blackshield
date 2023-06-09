@@ -1,0 +1,22 @@
+.button {
+  padding: 12px;
+  color: white;
+  background: #007AF4;
+  border-radius: 6px;
+  width: 184px;
+  font-size: 16px;
+  line-height: 19px;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+
+  &:disabled {
+    opacity: 0.6;
+  }
+}
